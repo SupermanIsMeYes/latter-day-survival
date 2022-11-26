@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <link rel="stylesheet" href="./styles/syle.css" />
   </head>
   <body>
     <header>
@@ -18,19 +19,13 @@
         <a href="./contact_me.html">Contact Me</a>
       </nav>
     </header>
-    <div id="main_img">
-      <div id="main-box">
-        <img
-          id="main-img"
-          src="./pics/5-Things-Latter-day-Saints-Need-to-Do-Right-Now-to-Prepare-for-the-Second-Coming.webp"
-          alt="Jesus"
-        />
-      </div>
+    <div class="main_img">
+      <img id="main-img" src="./pics/bigger_jesus.png" alt="Jesus" />
     </div>
     <br />
     <section>
       <h1>About Me</h1>
-      <img src="./pics/me.jpg" alt="Me" />
+      <img class="float_pic" src="./pics/me.jpg" alt="Me" />
       <h3>
         My Name is Bryant. I served my mission in Santa Rosa CA, as well as
         Quetzaltenango Guatemala. During my time as a missionary, I love
@@ -47,16 +42,24 @@
     </section>
     <main class="home-grid">
       <section class="Food_storage-card">
-        <img
-          class="card-img"
-          src="./pics/12375170-929c-4f50-ac03-a82626ce902a-lds_ready_1.webp"
-          alt="Food Storage"
-        />
-        <h2>Physical Survival</h2>
+        <a href="./physical_survival.html">
+          <img
+            class="card-img"
+            src="./pics/12375170-929c-4f50-ac03-a82626ce902a-lds_ready_1.webp"
+            alt="Food Storage"
+          />
+          <h2>Physical Survival</h2>
+        </a>
       </section>
       <section class="second_coming-card">
-        <img class="card-img" src="./pics/the_second_coming.jpeg" alt="jesus" />
-        <h2>Second Coming</h2>
+        <a href="./spirtual_survival.html">
+          <img
+            class="card-img"
+            src="./pics/the_second_coming.jpeg"
+            alt="jesus"
+          />
+          <h2>Second Coming</h2>
+        </a>
       </section>
     </main>
     <footer>

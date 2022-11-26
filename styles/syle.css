@@ -1,0 +1,62 @@
+header {
+  background-color: #faedcd;
+}
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 1em;
+  font-size: 18px;
+  text-align: center;
+  background-color: #fefae0;
+}
+.logo {
+  max-width: 200px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+nav a {
+  text-align: center;
+  color: #d4a373;
+  text-decoration: none;
+  padding: 35px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #d4a373;
+  padding: 1em;
+}
+footer {
+  background-color: #faedcd;
+  color: #d4a373;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#main-img {
+  margin-left: 0;
+  max-width: 1200px;
+}
+.float_pic {
+  float: left;
+  max-width: 100px;
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+}
+.card-img {
+  max-width: 400px;
+  max-height: 300px;
+}
+.second_coming-card,
+.Food_storage-card {
+  margin-bottom: -200px;
+}
