@@ -7,6 +7,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="./styles/syle.css" />
   </head>
+  <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
   <body>
     <header>
       <a id="logo_link" href="index.html">
@@ -21,11 +22,51 @@
     </header>
     <div id="main_img">
       <div id="main-box">
-        <img id="main-img" src="./pics/me.jpg" alt="Jesus" />
+        <img id="main-img" src="./pics/me.jpg" alt="me" />
       </div>
     </div>
     <main>
-      <h1>Email: supermanismebvo123@gmail.com</h1>
+      <div class="container_forum">
+        <form action=”mailto:supermanismebvo123@gmail.com” method=”POST” enctype=”text/plain” name=”EmailForm”>
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">Mexico</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <div class="bottom">
+        <h1>Or contact me here</h1>
+        <h1>Email: supermanismebvo123@gmail.com</h1>
+      </div>
     </main>
     <footer>
       <p>Latter Day Survival &copy; 2022 - Bryant Van Orden</p>
