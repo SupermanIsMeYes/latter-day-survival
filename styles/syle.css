@@ -58,6 +58,49 @@ footer {
   max-width: 400px;
   max-height: 300px;
 }
+.card-img:hover {
+  transform: scale(1.5);
+  box-shadow: 2px 2px 5px grey, -2px -2px 5px grey;
+}
+.physical-home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
+}
+.rice-card,
+.beans-card {
+  grid-column: 1;
+  object-fit: fill;
+  max-width: 600px;
+  max-height: 400px;
+}
+.rice-card2,
+.beans-card2 {
+  grid-column: 2;
+  object-fit: fill;
+  max-width: 600px;
+  max-height: 400px;
+}
+.rice-card3,
+.beans-card3 {
+  grid-column: 3;
+  object-fit: fill;
+  max-width: 600px;
+  max-height: 400px;
+}
+.physical-card-img {
+  object-fit: fill;
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+}
+.physical-card-img:hover {
+  transform: scale(1.4);
+  box-shadow: 2px 2px 5px grey, -2px -2px 5px grey;
+}
+.together {
+  grid-column: 1/4;
+}
 .second_coming-card,
 .Food_storage-card {
   margin-bottom: -200px;
