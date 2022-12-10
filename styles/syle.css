@@ -98,6 +98,12 @@ footer {
   transform: scale(1.4);
   box-shadow: 2px 2px 5px grey, -2px -2px 5px grey;
 }
+.img_ss {
+  object-fit: fill;
+  width: 400px;
+  height: 600px;
+  padding: 10px;
+}
 .together {
   grid-column: 1/4;
 }
